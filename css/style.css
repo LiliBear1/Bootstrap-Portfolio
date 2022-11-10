@@ -1,10 +1,19 @@
+/*
+container 
+    row
+        columns
+*/
 
 .nav-item {
     float: right;
     margin-top: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
-    text align-items: center;
+    align-items: center;
+}
+
+.title-work {
+    font-size: 2em;
 }
 
 
