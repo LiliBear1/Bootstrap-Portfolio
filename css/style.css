@@ -15,7 +15,9 @@ container
 .title-work,
 .title-skills,
 .title-about {
-    font-size: 2em;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
