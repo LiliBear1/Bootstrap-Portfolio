@@ -15,7 +15,7 @@ I previously learnt about creating a portfolio site using HTML and CSS, this wee
 
 # Deployed Page
 
-* [Deployed Page Link](https://lilibear1.github.io/)
+* [Deployed Page Link](https://lilibear1.github.io/Bootstrap-Portfolio/)
 
     ![Bootstrap portfolio GIF preview](images/Lili%20_%20Bootstrap%20Portfolio.gif)
 
