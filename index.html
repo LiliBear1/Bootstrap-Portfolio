@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation Bar at top -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Lili Begum</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -22,6 +23,8 @@
         </button>
 
         <!-- Section Links -->
+        <!-- Applicable to your portfolio. -->
+        <!-- Links should navigate to the appropriate sections -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
@@ -34,7 +37,7 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Me</a>
+                    <a class="nav-link" href="#about">Contact Me</a> <!-- Not added an extra ref to contact as in same row -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#cv">CV</a>
@@ -65,6 +68,7 @@
     </nav>
 
     <!-- Hero Jumbotron -->
+    <!-- Featuring your picture, your name, and any other information you'd like to include -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <!-- <div class="media p-3">
@@ -95,8 +99,11 @@
     </div>
 
     <!-- Work Section -->
+    <!-- A section displaying your work in grid  -->
+    <!-- Use bootstrap cards for each project -->
+    <!-- The description should give a brief overview of the work -->
     <section>
-        <div class="container">
+        <div class="container" id="work">
             <div class="row">
                 <div class="border border-info col-12 col-md-3">
                     <div class="text-right title-work">
@@ -112,7 +119,8 @@
                                 <h5 class="card-title">Main Project</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="https://www.space.com/" class="btn btn-primary">Project 1</a> 
+                                <!--Placeholder link to demo it works, I plan to update this later to my work, same applies for the links below  -->
                             </div>
                         </div>
                         <div class="card col-md-6">
@@ -122,7 +130,7 @@
                                 <h5 class="card-title">Project 2</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="https://www.space.com/" class="btn btn-primary">Project 2</a>
                             </div>
                         </div>
                         <div class="card col-md-6">
@@ -132,7 +140,7 @@
                                 <h5 class="card-title">Project 3</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="https://www.space.com/" class="btn btn-primary">Project 3</a>
                             </div>
                         </div>
                         <div class="card col-md-6">
@@ -142,7 +150,7 @@
                                 <h5 class="card-title">Project 4</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="https://www.space.com/" class="btn btn-primary">Project 4</a>
                             </div>
                         </div>
                         <div class="card col-md-6">
@@ -152,7 +160,7 @@
                                 <h5 class="card-title">Project 5</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="https://www.space.com/" class="btn btn-primary">Project 5</a>
                             </div>
                         </div>
                     </div>
@@ -163,7 +171,7 @@
 
     <!-- Skills Section -->
     <section>
-        <div class="container">
+        <div class="container" id="skills">
             <div class="row">
                 <div class="border border-info col-12 col-md-3">
                     <div class="text-right title-skills">
@@ -203,11 +211,12 @@
     </section>
 
     <!-- About / Contact Section -->
+    <!-- "About Me" section in the same row -->
     <section>
         <div class="container">
             <div class="row">
                 <div class="border border-info col-12 col-md-3">
-                    <div class="text-right title-about">
+                    <div class="text-right title-about" id="about">
                         About / Contact
                     </div>
                 </div>
@@ -227,11 +236,10 @@
                         <div class="card col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title">Contact</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.
+                                <p class="card-text">Please use the buttons below to contact me.
                                 </p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="mailto:email@email.com" class="btn btn-primary">Email Me</a>
+                                <a href="tel:555.555.555" class="btn btn-secondary">Call Me</a>
                             </div>
                         </div>
                     </div>
@@ -241,18 +249,21 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="border border-dark" style="height: 10em;">
+    <!-- All hyperlinks should have a hover effect -->
+    <!-- All buttons should display a box shadow upon hover -->
+    <footer class="border border-dark" style="height: 15em;">
         <div class="row">
-            <div class="col-12 col-md-6 border">
-                This is your first column, which will be full width
-                until md breakpoint
+            <div class="col-12 col-md-4 border"> Connect with me on 
+                <a href="https://www.linkedin.com/in/lilij" target="_blank">Linkedin</a>
             </div>
-            <div class="col-12 col-md-6 border">
-                This is your second column, which will be full width
-                until md breakpoint
-                <a href="http://space.com" target="_blank">This is a link</a>
+            <div class="col-12 col-md-4 border"> Check out my
+                <a href="https://github.com/LiliBear1" target="_blank">Github</a>
             </div>
+        
+        <div class="col-12 col-md-4 border"> Here's another
+            <a href="https://www.youtube.com/watch?v=I3E9U3GDrmI&ab_channel=LarryMcDonough" target="_blank">Useful Link</a>
         </div>
+    </div>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -269,3 +280,16 @@
 </body>
 
 </html>
+
+
+
+
+ 
+  
+  
+
+
+
+
+    
+

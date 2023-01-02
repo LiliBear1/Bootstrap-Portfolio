@@ -12,7 +12,9 @@ container
     align-items: center;
 }
 
-.title-work {
+.title-work,
+.title-skills,
+.title-about {
     font-size: 2em;
 }
 
